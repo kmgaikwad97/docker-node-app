@@ -2,11 +2,11 @@
 
 This project demonstrates a Node.js application containerized using Docker. It includes instructions on cloning the repository, building the Docker image, running the application with a MongoDB database, and managing Docker containers and networks.
 
-**Prerequisites**
+##Prerequisites
 
 * Docker installed: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 
-**Getting Started**
+##Getting Started
 
 1. Clone the project:
 
@@ -51,7 +51,7 @@ This project demonstrates a Node.js application containerized using Docker. It i
 
 11. Check on the localhost:3000/get-profile - you should get a photo.
 
-**Cleanup**
+##Cleanup
 
 After practicing, it's a good idea to clean up your Docker environment to free up resources.
 
@@ -72,7 +72,7 @@ Remove Dangling Volumes:
         docker volume prune -f
 
 
-**Troubleshooting**
+##Troubleshooting
 
 If you encounter any issues during the setup process, you can check the Docker logs for errors:
 
@@ -80,11 +80,11 @@ If you encounter any issues during the setup process, you can check the Docker l
 
 Replace `<container_name>` with the name of the container that's having issues.
 
-**Contributing**
+##Contributing
 
 Contributors are welcome! If you'd like to improve or fix something in this project, please submit a pull request with your changes.
 
-**License**
+##License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
