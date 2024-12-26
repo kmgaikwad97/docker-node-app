@@ -10,7 +10,7 @@ This project demonstrates a Node.js application containerized using Docker. It i
 
 1. Clone the project:
 
-        git clone https://github.com/kmgaikwad97/docker-node-app.git
+        (git clone https://github.com/kmgaikwad97/docker-node-app.git)
         
 2. Change into the project directory:
 
