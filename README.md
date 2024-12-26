@@ -55,7 +55,7 @@ This project demonstrates a Node.js application containerized using Docker. It i
 
 If you encounter any issues during the setup process, you can check the Docker logs for errors:
 
-docker logs -f <container_name>
+        docker logs -f <container_name>
 
 Replace `<container_name>` with the name of the container that's having issues.
 
