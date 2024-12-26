@@ -51,6 +51,27 @@ This project demonstrates a Node.js application containerized using Docker. It i
 
 11. Check on the localhost:3000/get-profile - you should get a photo.
 
+**Cleanup**
+
+After practicing, it's a good idea to clean up your Docker environment to free up resources.
+
+Stop and Remove All Running Containers:
+
+        docker ps -q | xargs docker stop
+        docker ps -aq | xargs docker rm
+
+
+Remove Unused Images:
+
+        docker images -q | xargs docker rmi
+
+
+Note: Be cautious; this removes all images, including those you might need.
+Remove Dangling Volumes:
+
+        docker volume prune -f
+
+
 **Troubleshooting**
 
 If you encounter any issues during the setup process, you can check the Docker logs for errors:
